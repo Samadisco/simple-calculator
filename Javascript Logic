@@ -1,0 +1,35 @@
+
+/ * This logic is not working properly but I hope it works well as soon a possible  */
+
+
+
+<script>
+   let calcDisplay = document.getElementById('calcDisplay') // getting the dom where the values will be injected
+
+//   let num1 = document.getElementById('num1')
+
+  hello = () => {
+      myArray = [1, 2, 3, 4]
+        alert()
+    }
+
+
+  let elements = document.getElementsByClassName('element')
+  elem = [...elements]
+
+  
+
+
+
+    elem.forEach((item, index) => {
+        item.addEventListener("click", hello);
+        // console.log(`${index} : ${item.textContent}`);
+    });
+
+    
+       
+  
+
+  
+  
+</script>

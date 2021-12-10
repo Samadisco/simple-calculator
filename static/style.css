@@ -1,0 +1,17 @@
+
+            /* styles that will apply to the various buttons */
+
+            body{
+                user-select: none;
+            }
+
+            .bottomContainer{
+                background-color: white;
+                position: relative;
+            }
+
+            .screenBg{
+                height: 30vh;
+                /* border: 1px solid ; */
+                background-color: aliceblue;
+            }  
